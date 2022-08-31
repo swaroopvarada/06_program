@@ -1,0 +1,27 @@
+#capitalize()
+
+a='india is THE Best Country'
+print(a.capitalize())
+
+a='_india is THE Best COUNTRY'
+print(a.capitalize())
+
+a='2india is THE Best Country'
+print(a.capitalize())
+
+a='&india is THE Best Country'
+print(a.capitalize())
+
+#casefold
+
+a='INDIA IS THE BEST COUNTRY'
+print(a.casefold())
+
+a='_INDIA IS THE BEST COUNTRY'
+print(a.casefold())
+
+a='@INDIA IS THE BEST COUNTRY'
+print(a.casefold())
+
+a='5INDIA IS THE BEST COUNTRY'
+print(a.casefold())
